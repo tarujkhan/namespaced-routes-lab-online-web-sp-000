@@ -4,5 +4,5 @@ Rails.application.routes.draw do
     resources :preferences, only: [:index, :show, :new]
   end
   resources :songs
-  resources :preferences
+  
 end
